@@ -15,6 +15,9 @@ import random
 import sqlite3
 
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 DB_PATH = "vocab.db"
 GLM_URL = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
